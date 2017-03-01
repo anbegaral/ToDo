@@ -1,0 +1,81 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,700);
+
+html, body{
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+  font-style: normal;
+  line-height: 1.4em;
+  font-size: 12px;
+  width: 75%;
+  margin: auto;
+}
+
+input, textarea {
+  width: 80%;
+}
+
+.container {
+  margin: 20px;
+  border: 20px solid lightgrey;
+}
+
+.row {
+  padding: 20px 20px 0px 20px;
+}
+
+.text {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.button {
+  padding: 20px 20px 20px 0px;
+  text-align: right;
+}
+
+button {
+  background-color: blue;
+  width: 25%;
+  height: 25px;
+  color: white;
+  font-size: 10px;
+  border: darkblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+hr {
+  color: lightgrey;
+}
+
+.taskitem {
+  border: 1px solid lightgrey;
+  margin: 20px;
+}
+
+.taskTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.task {
+  padding-left: 20px;
+}
+
+.delete {
+  border-top: 1px solid lightgrey;
+  text-align: right;
+  color: red;
+  padding: 10px 10px 0px 20px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: grey;
+}
